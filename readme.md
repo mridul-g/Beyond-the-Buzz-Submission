@@ -4,7 +4,7 @@
             <div class="markdown prose w-full break-words dark:prose-invert light">
                 <h1>Readme for Beyond the Buzz recruitment task Submission</h1>
                     <p>This code is a machine learning model that uses various classifiers to predict the verdict of a legal case based on input features.</p>
-                    <h2>Installation</h2>
+                      <h2>Installation</h2>
                     <p>To run this code, you need to install Python 3.5 or above and the following packages:</p>
                     <ul>
                         <li>
