@@ -56,9 +56,9 @@
                     <p>During training, the Random Forest algorithm creates multiple decision trees by randomly selecting subsets of data and features. The number of trees and the size of the subsets are hyperparameters that can be tuned for optimal performance.</p>
                     <p>During prediction, each decision tree in the Random Forest makes a prediction, and the class with the most votes across all trees is selected as the final prediction.</p>
                     <p>The Random Forest Classifier is based on two key concepts: bagging and random feature selection.</p>
-                    <p>Bagging (Bootstrap Aggregating):</p>
+                    <h3>Bagging (Bootstrap Aggregating):</h3>
                     <p>Bagging is a technique that involves sampling the training data with replacement to create multiple subsets of the data. The decision tree is then trained on each of these subsets, and the final prediction is obtained by combining the predictions of all decision trees. Bagging helps to reduce overfitting and improve the stability of the model.</p>
-                    <p>Random Feature Selection:</p>
+                    <h3>Random Feature Selection:</h3>
                     <p>Random feature selection is a technique that involves randomly selecting a subset of features for each decision tree. This helps to reduce the correlation between decision trees and ensures that each decision tree makes a different set of decisions.</p>
                     <p>The math behind the Random Forest Classifier algorithm involves constructing decision trees and aggregating their predictions using majority voting. Each decision tree is constructed recursively by selecting the best feature to split the data at each node based on a metric such as information gain or Gini impurity. The process continues until the data is fully partitioned, or a stopping criterion is met. The final prediction is obtained by aggregating the predictions of all decision trees using majority voting.</p>
                     <h2>Dataset</h2>
