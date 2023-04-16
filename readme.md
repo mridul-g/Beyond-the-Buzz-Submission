@@ -37,6 +37,12 @@
                         <li>Download the training and test datasets (in CSV format) and save them in the "data" directory with the names "train.csv" and "test.csv", respectively.</li>
                         <li>Run the code.</li>
                     </ol>
+                    <h2>Working</h2>
+                        <ol>
+                            <li>The code loads the data and prints the numerical variables in the data and a histogram for each of them.</li>
+                            <li>It then splits the data into train and test sets and trains different models, such as Random Forest, Gradient Boosting, SVM, and Logistic Regression, and calculates their accuracy scores.</li>
+                            <li>Finally, it selects the best performing model (Random Forest) and predicts the verdict for the test data and saves it to a file named predictions.csv.</li>
+                        </ol>
                     <h2>Dataset</h2>
                     <p>The dataset used in this code contains various features related to a legal case, such as the location of the incident, the type of crime, and the age and gender of the suspect. The dataset also includes a binary target variable "VERDICT" indicating whether the suspect was found guilty or not guilty.</p>
                 </div>
