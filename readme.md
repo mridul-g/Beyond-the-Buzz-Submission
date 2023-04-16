@@ -24,7 +24,7 @@
                 			</div>
                 		</button>
                 	</div>
-                    <pre tabindex="0" class="has-inner-focus">
+                    <pre tabindex="0" class="has-inner-focus ml-auto">
                         <code class="lang-console" data-author-content="pip install numpy pandas matplotlib seaborn scikit-learn">
                             <span>pip install numpy pandas matplotlib seaborn scikit-learn</span>
                         </code>
