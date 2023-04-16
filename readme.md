@@ -15,18 +15,10 @@
                         <li><code>scikit-learn</code>: A machine learning library for Python</li>
                     </ul>
                     <p>You can install the required packages using <code>pip</code> by running the following command:</p>
-                    <pre>
-                        <div class="bg-black rounded-md mb-4">
-                            <div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md">
-                                <button class="flex ml-auto gap-2">
-                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
-                                    "Copy code"
-                                </button>
-                            </div>
-                            <div class="p-4 overflow-y-auto">
-                                <code class="!whitespace-pre hljs">pip install numpy pandas matplotlib seaborn scikit-learn</code>
-                            </div>
-                        </div>
+                    <pre class="iq ir is it ek vs vt vu vv aw ne bi">
+                        <span id="79c8" class="vw vx ha vt b ev vy vz l wa wb" data-selectable-paragraph="">
+                            <strong class="vt hb">pip install numpy pandas matplotlib seaborn scikit-learn</strong>
+                        </span>
                     </pre>
                     <h2>Usage</h2>
                     <p>The code reads in training and test datasets and applies various classifiers (Random Forest, Gradient Boosting, SVM, and Logistic Regression) to predict the verdict of a legal case based on input features. The predictions are then saved to a CSV file for submission.</p>
