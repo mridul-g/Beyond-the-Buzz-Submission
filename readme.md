@@ -43,30 +43,25 @@
                             <li>It then splits the data into train and test sets and trains different models, such as Random Forest, Gradient Boosting, SVM, and Logistic Regression, and calculates their accuracy scores.</li>
                             <li>Finally, it selects the best performing model (Random Forest) and predicts the verdict for the test data and saves it to a file named predictions.csv.</li>
                         </ol>
-                    <h2>Random Forest Classifier </h2>
-                    <p>Random Forest is a popular ensemble learning method for classification, regression, and other tasks. It is an extension of decision trees, where multiple decision trees are trained on randomly selected subsets of the training data and features.</p>
 
-                    <p>Here's how Random Forest Classifier works:</p>
-                    <ol>                  
-                        <li>Selecting random samples from a given dataset.</li>
-                        <li>Building a decision tree for each sample and getting a prediction result from each decision tree.</li>
-                        <li>Performing a vote for each predicted result.</li>
-                        <li>Selecting the prediction result with the most votes as the final prediction.</li>
-                    </ol>
-                    <p>The key concept behind Random Forest is to combine the outputs of multiple decision trees to create a more accurate and stable prediction. This helps to reduce overfitting and improve generalization performance.</p>
-
-                    <p>During training, the Random Forest algorithm creates multiple decision trees by randomly selecting subsets of data and features. The number of trees and the size of the subsets are hyperparameters that can be tuned for optimal performance.</p>
-
-                    <p>During prediction, each decision tree in the Random Forest makes a prediction, and the class with the most votes across all trees is selected as the final prediction.</p>
-                    <p>The Random Forest Classifier is based on two key concepts: bagging and random feature selection.</p>
-
-                    <p>Bagging (Bootstrap Aggregating):</p>
-                    <p>Bagging is a technique that involves sampling the training data with replacement to create multiple subsets of the data. The decision tree is then trained on each of these subsets, and the final prediction is obtained by combining the predictions of all decision trees. Bagging helps to reduce overfitting and improve the stability of the model.</p>
-
-                    <p>Random Feature Selection:</p>
-                    <p>Random feature selection is a technique that involves randomly selecting a subset of features for each decision tree. This helps to reduce the correlation between decision trees and ensures that each decision tree makes a different set of decisions.</p>
-
-                    <p>The math behind the Random Forest Classifier algorithm involves constructing decision trees and aggregating their predictions using majority voting. Each decision tree is constructed recursively by selecting the best feature to split the data at each node based on a metric such as information gain or Gini impurity. The process continues until the data is fully partitioned, or a stopping criterion is met. The final prediction is obtained by aggregating the predictions of all decision trees using majority voting.</p>
+                    <h2>Random Forest Classifier</h2>
+                        <p>Random Forest is a popular ensemble learning method for classification, regression, and other tasks. It is an extension of decision trees, where multiple decision trees are trained on randomly selected subsets of the training data and features.</p>
+                        <p>Here's how Random Forest Classifier works:</p>
+                        <ol>                  
+                            <li>Selecting random samples from a given dataset.</li>
+                            <li>Building a decision tree for each sample and getting a prediction result from each decision tree.</li>
+                            <li>Performing a vote for each predicted result.</li>
+                            <li>Selecting the prediction result with the most votes as the final prediction.</li>
+                        </ol>
+                        <p>The key concept behind Random Forest is to combine the outputs of multiple decision trees to create a more accurate and stable prediction. This helps to reduce overfitting and improve generalization performance.</p>
+                        <p>During training, the Random Forest algorithm creates multiple decision trees by randomly selecting subsets of data and features. The number of trees and the size of the subsets are hyperparameters that can be tuned for optimal performance.</p>
+                        <p>During prediction, each decision tree in the Random Forest makes a prediction, and the class with the most votes across all trees is selected as the final prediction.</p>
+                        <p>The Random Forest Classifier is based on two key concepts: bagging and random feature selection.</p>
+                        <p>Bagging (Bootstrap Aggregating):</p>
+                        <p>Bagging is a technique that involves sampling the training data with replacement to create multiple subsets of the data. The decision tree is then trained on each of these subsets, and the final prediction is obtained by combining the predictions of all decision trees. Bagging helps to reduce overfitting and improve the stability of the model.</p>
+                        <p>Random Feature Selection:</p>
+                        <p>Random feature selection is a technique that involves randomly selecting a subset of features for each decision tree. This helps to reduce the correlation between decision trees and ensures that each decision tree makes a different set of decisions.</p>
+                        <p>The math behind the Random Forest Classifier algorithm involves constructing decision trees and aggregating their predictions using majority voting. Each decision tree is constructed recursively by selecting the best feature to split the data at each node based on a metric such as information gain or Gini impurity. The process continues until the data is fully partitioned, or a stopping criterion is met. The final prediction is obtained by aggregating the predictions of all decision trees using majority voting.</p>
                     <h2>Dataset</h2>
                     <p>The dataset used in this code contains various features related to a legal case, such as the location of the incident, the type of crime, and the age and gender of the suspect. The dataset also includes a binary target variable "VERDICT" indicating whether the suspect was found guilty or not guilty.</p>
                 </div>
