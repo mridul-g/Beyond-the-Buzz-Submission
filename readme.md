@@ -24,11 +24,9 @@
                 			</div>
                 		</button>
                 	</div>
-                    <pre tabindex="0" class="has-inner-focus ml-auto">
-                        <code class="lang-console" data-author-content="pip install numpy pandas matplotlib seaborn scikit-learn">
-                            <span>pip install numpy pandas matplotlib seaborn scikit-learn</span>
-                        </code>
-                    </pre>
+                    <code class="lang-console" data-author-content="pip install numpy pandas matplotlib seaborn scikit-learn">
+                        <span>pip install numpy pandas matplotlib seaborn scikit-learn</span>
+                    </code>
                     <h2>Usage</h2>
                     <p>The code reads in training and test datasets and applies various classifiers (Random Forest, Gradient Boosting, SVM, and Logistic Regression) to predict the verdict of a legal case based on input features. The predictions are then saved to a CSV file for submission.</p>
                     <p>To use this code, you need to follow the steps below:</p>
@@ -47,12 +45,12 @@
                     <h2>Random Forest Classifier</h2>
                     <p>Random Forest is a popular ensemble learning method for classification, regression, and other tasks. It is an extension of decision trees, where multiple decision trees are trained on randomly selected subsets of the training data and features.</p>
                     <p>Here's how Random Forest Classifier works: </p>
-                        <ol>                  
+                    <ol>                  
                             <li>Selecting random samples from a given dataset.</li>
                             <li>Building a decision tree for each sample and getting a prediction result from each decision tree.</li>
                             <li>Performing a vote for each predicted result.</li>
                             <li>Selecting the prediction result with the most votes as the final prediction.</li>
-                        </ol>
+                    </ol>
                     <p>The key concept behind Random Forest is to combine the outputs of multiple decision trees to create a more accurate and stable prediction. This helps to reduce overfitting and improve generalization performance.</p>
                     <p>During training, the Random Forest algorithm creates multiple decision trees by randomly selecting subsets of data and features. The number of trees and the size of the subsets are hyperparameters that can be tuned for optimal performance.</p>
                     <p>During prediction, each decision tree in the Random Forest makes a prediction, and the class with the most votes across all trees is selected as the final prediction.</p>
@@ -69,7 +67,6 @@
                 </div>
             </div>
         </div>
-        <!--
         <div class="flex justify-between lg:block">
             <div class="text-gray-400 flex self-end lg:self-center justify-center mt-2 gap-2 md:gap-3 lg:gap-1 lg:absolute lg:top-0 lg:translate-x-full lg:right-0 lg:mt-0 lg:pl-2 visible">
                 <button class="p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400">
@@ -78,6 +75,5 @@
                 <button class="p-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"></path></svg></button>
             </div>
         </div>
-    -->
     </div>
 </div>
