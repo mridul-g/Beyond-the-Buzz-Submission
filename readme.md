@@ -2,7 +2,7 @@
     <div class="flex flex-grow flex-col gap-3">
         <div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
             <div class="markdown prose w-full break-words dark:prose-invert light">
-                <h1>Readme for Python Code</h1>
+                <h1>Readme for Beyond the Buzz recruitment task Submission</h1>
                     <p>This code is a machine learning model that uses various classifiers to predict the verdict of a legal case based on input features.</p>
                     <h2>Installation</h2>
                     <p>To run this code, you need to install Python 3.5 or above and the following packages:</p>
@@ -17,8 +17,10 @@
                     <p>You can install the required packages using <code>pip</code> by running the following command:</p>
                     <pre>
                         <div class="bg-black rounded-md mb-4">
-                            <div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><button class="flex ml-auto gap-2">
-                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button>
+                            <div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md">
+                                <button class="flex ml-auto gap-2">
+                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code
+                                </button>
                             </div>
                             <div class="p-4 overflow-y-auto">
                                 <code class="!whitespace-pre hljs">pip install numpy pandas matplotlib seaborn scikit-learn</code>
@@ -35,8 +37,6 @@
                     </ol>
                     <h2>Dataset</h2>
                     <p>The dataset used in this code contains various features related to a legal case, such as the location of the incident, the type of crime, and the age and gender of the suspect. The dataset also includes a binary target variable "VERDICT" indicating whether the suspect was found guilty or not guilty.</p>
-                    <h2>License</h2>
-                    <p>This code is released under the MIT License.</p>
                 </div>
             </div>
         </div>
