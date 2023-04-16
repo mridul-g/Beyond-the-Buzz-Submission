@@ -62,7 +62,7 @@
                     <p>Random feature selection is a technique that involves randomly selecting a subset of features for each decision tree. This helps to reduce the correlation between decision trees and ensures that each decision tree makes a different set of decisions.</p>
                     <p>The math behind the Random Forest Classifier algorithm involves constructing decision trees and aggregating their predictions using majority voting. Each decision tree is constructed recursively by selecting the best feature to split the data at each node based on a metric such as information gain or Gini impurity. The process continues until the data is fully partitioned, or a stopping criterion is met. The final prediction is obtained by aggregating the predictions of all decision trees using majority voting.</p>
                     <h2>Dataset</h2>
-                    <p>The dataset used in this code contains various features related to a legal case, such as the location of the incident, the type of crime, and the age and gender of the suspect. The dataset also includes a binary target variable "VERDICT" indicating whether the suspect was found guilty or not guilty.</p>
+                    <p>The dataset used in this code contains various features transactions, such as PARAMETER_1, PARAMETER_2, PARAMETER_3, etc. The dataset also includes a binary target variable "VERDICT" indicating whether the transaction was fraudulent or not. ‘1’ stands for a genuine transaction while ‘0’ stands for a fraudulent one.</p>
                     <p>Finally the predictions were made using Random Forest Classifier with an accuracy of 94.8734 %</p>
                 </div>
             </div>
