@@ -15,10 +15,23 @@
                         <li><code>scikit-learn</code>: A machine learning library for Python</li>
                     </ul>
                     <p>You can install the required packages using <code>pip</code> by running the following command:</p>
-                    <pre class="iq ir is it ek vs vt vu vv aw ne bi">
-                        <span id="79c8" class="vw vx ha vt b ev vy vz l wa wb" data-selectable-paragraph="">
-                            <strong class="vt hb">pip install numpy pandas matplotlib seaborn scikit-learn</strong>
-                        </span>
+                    <div class="codeHeader" id="code-try-0" data-bi-name="code-header">
+                		<button type="button" class="action position-relative display-none-print" data-bi-name="copy">
+                			<span class="icon margin-right-xxs" aria-hidden="true">
+                				<span class="docon docon-edit-copy"></span>
+                			</span>
+                			<span>Copy</span>
+                			<div class="successful-copy-alert position-absolute right-0 top-0 left-0 bottom-0 display-flex align-items-center               justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
+                				<span class="icon font-size-lg">
+                					<span class="docon docon-check-mark"></span>
+                				</span>
+                			</div>
+                		</button>
+                	</div>
+                    <pre tabindex="0" class="has-inner-focus">
+                        <code class="lang-console" data-author-content="pip install numpy pandas matplotlib seaborn scikit-learn">
+                            <span>pip install numpy pandas matplotlib seaborn scikit-learn</span>
+                        </code>
                     </pre>
                     <h2>Usage</h2>
                     <p>The code reads in training and test datasets and applies various classifiers (Random Forest, Gradient Boosting, SVM, and Logistic Regression) to predict the verdict of a legal case based on input features. The predictions are then saved to a CSV file for submission.</p>
