@@ -4,7 +4,7 @@
             <div class="markdown prose w-full break-words dark:prose-invert light">
                 <h1>Readme for Beyond the Buzz recruitment task Submission</h1>
                     <p>This code is a machine learning model that uses various classifiers to predict the verdict of a legal case based on input features.</p>
-                      <h2>Installation</h2>
+                    <h2>Installation</h2>
                     <p>To run this code, you need to install Python 3.5 or above and the following packages:</p>
                     <ul>
                         <li>
@@ -63,6 +63,7 @@
                     <p>The math behind the Random Forest Classifier algorithm involves constructing decision trees and aggregating their predictions using majority voting. Each decision tree is constructed recursively by selecting the best feature to split the data at each node based on a metric such as information gain or Gini impurity. The process continues until the data is fully partitioned, or a stopping criterion is met. The final prediction is obtained by aggregating the predictions of all decision trees using majority voting.</p>
                     <h2>Dataset</h2>
                     <p>The dataset used in this code contains various features related to a legal case, such as the location of the incident, the type of crime, and the age and gender of the suspect. The dataset also includes a binary target variable "VERDICT" indicating whether the suspect was found guilty or not guilty.</p>
+                    <p>Finally the predictions were made using Random Forest Classifier with an accuracy of 94.8734 %</p>
                 </div>
             </div>
         </div>

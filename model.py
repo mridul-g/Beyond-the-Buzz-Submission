@@ -56,15 +56,10 @@ lg = LogisticRegression()
 lg.fit(X_train,y_train)
 lg_pred_score = lg.score(X_test,y_test)
 
-df = pd.DataFrame(dict(model=['Logistic Regression', 
-                              'Random Forest', 
-                              'Gradient Boosting',
-                              'SVM'],accuracy=[lg_pred_score, rf_pred_score, 
-                                               gb_pred_score, svc_pred_score]))
+df = pd.DataFrame(dict(model=['Logistic Regression', 'Random Forest', 'Gradient Boosting','SVM'],accuracy=[lg_pred_score, rf_pred_score, gb_pred_score, svc_pred_score]))
 df
 
-df.plot(kind='bar',x='model',y='accuracy',title='Model Accuracy',legend=False,
-        color=['#1F77B4', '#FF7F0E', '#2CA02C'])
+df.plot(kind='bar',x='model',y='accuracy',title='Model Accuracy',legend=False,color=['#1F77B4', '#FF7F0E', '#2CA02C'])
 plt.ylim(0.5,1)
 
 test_data.info()
