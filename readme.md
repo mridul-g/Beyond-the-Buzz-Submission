@@ -16,7 +16,7 @@
                     </ul>
                     <p>You can install the required packages using <code>pip</code> by running the following command:</p>
                     
-                    <!--<div class="codeHeader" id="code-try-0" data-bi-name="code-header">
+                    <div class="codeHeader" id="code-try-0" data-bi-name="code-header">
                 		<button type="button" class="action position-relative display-none-print" data-bi-name="copy">
                 			<div class="successful-copy-alert position-absolute right-0 top-0 left-0 bottom-0 display-flex align-items-center justify-content-center has-text-success-invert has-background-success is-transparent" aria-hidden="true">
                 				<span class="icon font-size-lg">
@@ -24,7 +24,7 @@
                 				</span>
                 			</div>
                 		</button>
-                	</div> -->
+                	</div>
                     <code class="lang-console" data-author-content="pip install numpy pandas matplotlib seaborn scikit-learn">
                         <span>pip install numpy pandas matplotlib seaborn scikit-learn</span>
                     </code>
