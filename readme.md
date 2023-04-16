@@ -3,12 +3,11 @@
         <div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
             <div class="markdown prose w-full break-words dark:prose-invert light">
                 <h1>Readme for Beyond the Buzz recruitment task Submission</h1>
-                    <p>This code is a machine learning model that uses various classifiers to predict the verdict of a legal case based on input features.</p>
+                    <p>This code is a machine learning model that uses various classifiers to predict the genuinity of a transaction based on input features.</p>
                     <h2>Installation</h2>
                     <p>To run this code, you need to install Python 3.5 or above and the following packages:</p>
                     <ul>
-                        <li>
-                            <code>numpy</code>: A Python library for numerical computing</li>
+                        <li><code>numpy</code>: A Python library for numerical computing</li>
                         <li><code>pandas</code>: A Python library for data manipulation</li>
                         <li><code>matplotlib</code>: A Python library for data visualization</li>
                         <li><code>seaborn</code>: A Python library for statistical data visualization</li>
@@ -30,7 +29,7 @@
                         </code>
                     </pre>
                     <h2>Usage</h2>
-                    <p>The code reads in training and test datasets and applies various classifiers (Random Forest, Gradient Boosting, SVM, and Logistic Regression) to predict the verdict of a legal case based on input features. The predictions are then saved to a CSV file for submission.</p>
+                    <p>The code reads in training and test datasets and applies various classifiers (Random Forest, Gradient Boosting, SVM, and Logistic Regression) to predict the verdict based on input features. The predictions are then saved to a CSV file for submission.</p>
                     <p>To use this code, you need to follow the steps below:</p>
                     <ol>
                         <li>Ensure that the required packages are installed (see Installation section).</li>
